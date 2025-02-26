@@ -35,7 +35,9 @@ Welcome to **My Secret Recipes**, a personal recipe book application designed to
 
 ## Screenshots 📸
 
-![Home Screen]    <img src="[https://github.com/user-attachments/assets/2bc0e040-19ce-4631-a87e-4233e5303693](https://github.com/user-attachments/assets/41804252-3bd9-4597-8886-2ad195a25c63)" alt="Screenshot 1" style="width: 30%; margin: 5px;">
+![Home Screen]   
+
+    <img src="https://github.com/user-attachments/assets/2bc0e040-19ce-4631-a87e-4233e5303693" alt="Screenshot 1" style="width: 30%; margin: 5px;">
 
 
 ![Recipe View](path/to/recipe-view-image.png)
