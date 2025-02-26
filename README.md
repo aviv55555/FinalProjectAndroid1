@@ -34,12 +34,9 @@ Welcome to **My Secret Recipes**, a personal recipe book application designed to
 - Find **tailored content** based on user preferences.
 
 ## Screenshots 📸
-
-![Home Screen]   
-
+<div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
     <img src="https://github.com/user-attachments/assets/2bc0e040-19ce-4631-a87e-4233e5303693" alt="Screenshot 1" style="width: 30%; margin: 5px;">
-
-
-![Recipe View](path/to/recipe-view-image.png)
-
+    <img src="https://github.com/user-attachments/assets/714a575e-a5ed-44ae-81be-62ffd1372170" alt="Screenshot 2" style="width: 30%; margin: 5px;">
+    <img src="https://github.com/user-attachments/assets/87a158f9-f184-4e30-abc3-c28ab7084e0d" alt="Screenshot 3" style="width: 30%; margin: 5px;">
+</div>
 🚀 **Start organizing your recipes today with My Secret Recipes!**
