@@ -35,8 +35,10 @@ Welcome to **My Secret Recipes**, a personal recipe book application designed to
 
 ## Screenshots 📸
 <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
-    <img src="https://github.com/user-attachments/assets/2bc0e040-19ce-4631-a87e-4233e5303693" alt="Screenshot 1" style="width: 30%; margin: 5px;">
+    <img src="https://github.com/user-attachments/assets/d5456d9f-0609-4ae5-9174-42229c32e3fe" alt="Screenshot 1" style="width: 30%; margin: 5px;">
     <img src="https://github.com/user-attachments/assets/714a575e-a5ed-44ae-81be-62ffd1372170" alt="Screenshot 2" style="width: 30%; margin: 5px;">
     <img src="https://github.com/user-attachments/assets/87a158f9-f184-4e30-abc3-c28ab7084e0d" alt="Screenshot 3" style="width: 30%; margin: 5px;">
 </div>
+![Screenshot_20250226-141318](https://github.com/user-attachments/assets/d5456d9f-0609-4ae5-9174-42229c32e3fe)
+
 🚀 **Start organizing your recipes today with My Secret Recipes!**
