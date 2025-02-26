@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Fragments.FragmentMain">
+
+    <RadioGroup
+        android:id="@+id/filterGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/filterIngredient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:text="Recipe / Ingredient" />
+
+        <RadioButton
+            android:id="@+id/filterCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:text="Category" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <EditText
+            android:id="@+id/searchBox"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:hint="Search"
+            android:inputType="text"
+            android:textColor="#000000"
+            android:textColorLink="#976420"
+            android:backgroundTint="#A2722E" />
+
+        <ImageButton
+            android:id="@+id/buttonSearch"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="0.2"
+            android:adjustViewBounds="true"
+            android:background="@drawable/rounded_button"
+            android:importantForAccessibility="no"
+            android:onClick="searchFunc"
+            android:scaleType="fitCenter"
+            android:src="@drawable/search" />
+    </LinearLayout>
+    <Spinner
+        android:id="@+id/categorySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:visibility="gone"
+        android:background="@drawable/timepicker_background"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewRecipes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Your Recipes"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/resViewRecipes"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layoutDirection="rtl"
+        app:cardElevation="0dp"
+        android:background="@android:color/transparent"/>
+
+    <TextView
+        android:id="@+id/textViewFamous"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Get Inspired"
+        android:textColor="#000908"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/resViewFamous"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layoutDirection="rtl"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/buttonFav"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/favorite"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="4dp"
+            android:importantForAccessibility="no"/>
+
+        <ImageButton
+            android:id="@+id/buttonPlus"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/plus"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="4dp"
+            android:importantForAccessibility="no"/>
+
+        <ImageButton
+            android:id="@+id/buttonGlobal"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/globs"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="4dp"
+            android:importantForAccessibility="no"/>
+    </LinearLayout>
+
+</LinearLayout>

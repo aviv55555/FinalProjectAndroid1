@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/fragmentMain">
+
+    <fragment
+        android:id="@+id/fragmentAddRecipes"
+        android:name="com.example.finalproject.Fragments.FragmentAddRecipes"
+        android:label="fragment_add_recipes"
+        tools:layout="@layout/fragment_add_recipes" >
+        <action
+            android:id="@+id/action_fragmentAddRecipes_to_fragmentMain"
+            app:destination="@id/fragmentMain" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentExtrnalRecipes"
+        android:name="com.example.finalproject.Fragments.FragmentExtrnalRecipes"
+        android:label="fragment_extrnal_recipes"
+        tools:layout="@layout/fragment_extrnal_recipes" >
+        <action
+            android:id="@+id/action_fragmentExtrnalRecipes_to_fragmentShowRecipe"
+            app:destination="@id/fragmentShowRecipe" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentShowRecipe"
+        android:name="com.example.finalproject.Fragments.FragmentShowRecipe"
+        android:label="fragment_show_recipe"
+        tools:layout="@layout/fragment_show_recipe">
+        <action
+            android:id="@+id/action_fragmentShowRecipe_to_fragmentEditRecipe"
+            app:destination="@id/fragmentEditRecipe" />
+        <action
+            android:id="@+id/action_fragmentShowRecipe_to_fragmentMain"
+            app:destination="@id/fragmentMain" />
+        <action
+            android:id="@+id/action_fragmentShowRecipe_to_fragmentTimer"
+            app:destination="@id/fragmentTimer" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentEditRecipe"
+        android:name="com.example.finalproject.Fragments.FragmentEditRecipe"
+        android:label="fragment_edit_recipe"
+        tools:layout="@layout/fragment_edit_recipe" >
+        <action
+            android:id="@+id/action_fragmentEditRecipe_to_fragmentMain"
+            app:destination="@id/fragmentMain" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentFavorites"
+        android:name="com.example.finalproject.Fragments.FragmentFavorites"
+        android:label="fragment_favorites"
+        tools:layout="@layout/fragment_favorites">
+        <action
+            android:id="@+id/action_fragmentFavorites_to_fragmentShowRecipe"
+            app:destination="@id/fragmentShowRecipe" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentMain"
+        android:name="com.example.finalproject.Fragments.FragmentMain"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_fragmentMain_to_fragmentAddRecipes"
+            app:destination="@id/fragmentAddRecipes" />
+        <action
+            android:id="@+id/action_fragmentMain_to_fragmentFavorites"
+            app:destination="@id/fragmentFavorites" />
+        <action
+            android:id="@+id/action_fragmentMain_to_fragmentExtrnalRecipes"
+            app:destination="@id/fragmentExtrnalRecipes" />
+        <action
+            android:id="@+id/action_fragmentMain_to_fragmentShowRecipe"
+            app:destination="@id/fragmentShowRecipe" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentTimer"
+        android:name="com.example.finalproject.Fragments.FragmentTimer"
+        android:label="fragment_timer"
+        tools:layout="@layout/fragment_timer" />
+</navigation>
