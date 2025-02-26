@@ -35,37 +35,9 @@ Welcome to **My Secret Recipes**, a personal recipe book application designed to
 
 ## Screenshots 📸
 
-![Home Screen](path/to/home-screen-image.png)
+![Home Screen][Screenshot_20250226-141318](https://github.com/user-attachments/assets/41804252-3bd9-4597-8886-2ad195a25c63)
+
 
 ![Recipe View](path/to/recipe-view-image.png)
-
-## Installation 🛠️
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/my-secret-recipes.git
-   ```
-2. Navigate to the project folder:
-   ```bash
-   cd my-secret-recipes
-   ```
-3. Install dependencies:
-   ```bash
-   npm install  # or pip install -r requirements.txt (for Python-based projects)
-   ```
-4. Run the application:
-   ```bash
-   npm start  # or python app.py (depending on the stack used)
-   ```
-
-## Contributing 🤝
-
-We welcome contributions! Feel free to submit pull requests or open issues for new features and improvements.
-
-## License 📜
-
-This project is licensed under the [MIT License](LICENSE).
-
----
 
 🚀 **Start organizing your recipes today with My Secret Recipes!**
