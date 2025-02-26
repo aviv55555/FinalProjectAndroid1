@@ -38,12 +38,8 @@ Welcome to **My Secret Recipes**, a personal recipe book application designed to
     <div>
         <img src="https://github.com/user-attachments/assets/d5456d9f-0609-4ae5-9174-42229c32e3fe" alt="homePage" style="width: 30%; margin: 5px;">
         <p align="center">Home Page</p>
-    </div>
-    <div>
         <img src="https://github.com/user-attachments/assets/526e1b8e-54c2-42b8-af01-2cc5cf0297f4" alt="Screenshot 3" style="width: 30%; margin: 5px;">
         <p align="center">Home Page</p>
-    </div>
-    <div>
         <img src="https://github.com/user-attachments/assets/8b4b77e4-d38b-46a9-af50-374ae5fe9f73" alt="Screenshot 3" style="width: 30%; margin: 5px;">
         <p align="center">Home Page</p>
     </div>
